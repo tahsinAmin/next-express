@@ -15,6 +15,11 @@ app.get('/', (req, res) => {
   })
 })
 
-app.listen(3001, (err) => {
-  console.log(err)
+const port = process.env.PORT || 3001
+app.listen(port, (err) => {
+  if (err) {
+    console.log('some error with port: ', port, err)
+  } else {
+    console.log('server running...', port)
+  }
 })

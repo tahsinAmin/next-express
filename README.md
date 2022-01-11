@@ -6,4 +6,5 @@
 
 - [ ] What is .prettierrc?
 - [ ] What does urlencoded mean?
-- [ ] Do I have to give npm i on both folders?
+- [x] Do I have to give npm i on both folders? Yes.
+- [ ] "body-parser deprecated undefined extended: provide extended option index.js:4:17"
